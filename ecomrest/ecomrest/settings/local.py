@@ -8,9 +8,9 @@ SECRET_KEY = 'm11q@hqhdgz=57n3ns0&l%&t71_n5a2w&7!2nv2!se1d1(sg4v'
 
 DATABASES = {
     'default': {
-                'ENGINE': 'django.db.backends.postgresql_psycopg2',
-                'NAME': 'ecomrest',
-                'USER': 'postgres',
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': 'postgres',
+                'USER': 'ecomrest',
                 'PASSWORD': '84253675',
                 'HOST': '127.0.0.1',
                 'PORT': '5432',
